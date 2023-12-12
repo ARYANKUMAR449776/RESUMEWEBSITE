@@ -1,0 +1,212 @@
+
+
+body{
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+}
+
+#abstract {
+    width: 20%; 
+    height: 20vw; 
+    object-fit: cover; 
+    border-radius: 5%; 
+    position: absolute;
+    right: 12.5%;
+    top: 15%;
+}
+#top_elements{
+    background-color: black;
+    padding: 0.5%;
+    text-align: center;  
+}
+#contactme{
+    text-decoration: none;
+    color: beige;
+}
+#namepage{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    font-size: 300%;
+    position: absolute;
+    top:20%;
+    left: 20%;    
+}
+#nav_bar{
+    margin:0;
+    padding: 0;
+}
+
+/* Four tabs within webpage after the frontpage */
+#tab-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    background-color:black;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 5px;
+    color: beige;
+}
+
+.tab:hover {
+    background-color: gray;
+}
+
+.active-tab {
+    background-color: beige;
+}
+
+/* tabs where the info is */
+.tab-content {
+    display: none;
+    text-align: center;
+    background-color: 	#e8dcb5;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+#main_page{
+    margin-top: 30%;
+}
+/* line below namepage */
+hr {
+    border: 2px solid #000; 
+    margin-left: 5%;
+    margin-right: 5%;
+}
+ul{
+    text-align: left;
+}
+h2{
+    background-color: #000;
+    color: beige;
+}
+#Instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px; 
+}
+#instahandle{
+    margin-top: 2.5%;
+    text-align: center;
+    color: beige;
+    background-color: black;
+    padding: 5px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+/* Side images on the instagram handle sections */
+.sidePhotos{
+object-fit: cover;
+height: 255px;
+width: 250px;
+margin-top: -10px;
+}
+#leftImages{
+    display: flex;
+    float: left;
+    flex-direction:column;
+    margin-right: 10px; 
+    border-left: 10px solid#000;
+    padding-left: 15px;
+
+}
+#rightImages{
+ display:flex;
+ flex-direction:column;
+ margin-left: 10px;  
+ border-right: 10px solid#000;
+ padding-right: 15px;
+}
+
+
+/* form styling */
+#contactForm {
+    margin: 20px;
+}
+
+form {
+    background-color: #e8dcb5;
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    scale: 80%;  
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    font-size: 24px;
+    font-weight: bold;
+    color: beige;
+    margin-bottom: 20px;
+    background-color: black;
+    margin-right: 40%;
+    border-radius: 5%;
+}
+
+table {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    background-color: black;
+    color: beige;
+    font-size: 18px;
+    margin-right: 70%;
+   border-radius: 5%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 15px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="Submit"] {
+    background-color: black;
+    color: beige;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    
+}
+
+input[type="Submit"]:hover {
+    background-color: #333;
+}
